@@ -46,9 +46,7 @@ export default function Header() {
         history.push("/")
       }
     } catch (error) {
-
     }
-
   }, [])
 
   return (
@@ -63,9 +61,7 @@ export default function Header() {
           </Typography>
 
           <div className="row">
-            {/* <Button color="inherit" onClick={handleClick}>{user.name}</Button> */}
             <Button color="inherit" onClick={handleClick}>Menu</Button>
-
           </div>
           <Menu
             id="simple-menu"

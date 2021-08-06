@@ -8,7 +8,9 @@ export default class Grafik extends Component {
         data_total: [],
         data_rows: [],
         labels_created_at: [],
-        chartData: {}
+        chartData: {
+
+        }
     };
 
     getChart = () => {
